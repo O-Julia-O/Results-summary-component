@@ -186,6 +186,8 @@ button {
     .hero__container {
         flex-direction: row;
         justify-content: center;
+
+        max-width: 46rem;
     }
 
     .hero-score__container {
@@ -197,5 +199,10 @@ button {
     .hero-details__container {
         flex-basis: 50%;
         justify-content: space-between;
+    }
+
+    .hero-circle {
+        width: 12.5rem;
+        height: 12.5rem;
     }
 }
