@@ -1,3 +1,11 @@
+:root {
+    --Light-slate-blue-background: #7857ff;
+    --Light-royal-blue-background: #2e2be9;
+
+    --Violet-blue-circle: #4e21ca;
+    --Persian-blue-circle: #2421ca00;
+}
+
 body {
     font-family: "Hanken Grotesk";
     font-size: 16px;
@@ -16,6 +24,7 @@ main {
 
 .hero-score__container {
     text-align: center;
+    background: linear-gradient(#7857ff,  #2e2be9);;
 }
 
 h1 {
