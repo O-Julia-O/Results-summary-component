@@ -9,6 +9,7 @@
 body {
     font-family: "Hanken Grotesk";
     font-size: 16px;
+    font-weight: medium;
 }
 
 main {
@@ -30,24 +31,34 @@ main {
 .hero-score__container {
     
     text-align: center;
-    background: linear-gradient(#7857ff,  #2e2be9);
+    background: linear-gradient(#7857ff 0%, #6943FF 0%,  #2e2be9 100%);
     gap: 1.5rem;
 
     padding-top: 1.5rem;
     padding-bottom: 2.5rem;
+
+    color: #CAC9FF;
 }
 
 h1 {
     font-size: 3.5em;
     font-weight: 900;
+    color: white;
 }
 
 h2 {
     font-size: 1.5em;
     font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
 }
 
 h3 {
     font-size: 1.125em;
     font-weight: bold;
+}
+
+.hero-score__text {
+    margin-left: 3.625rem;
+    margin-right: 3.625rem;
 }
