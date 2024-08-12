@@ -78,3 +78,10 @@ h3 {
     margin-left: 3.625rem;
     margin-right: 3.625rem;
 }
+
+.hero-details__container {
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    margin-bottom: 1.875rem;
+    margin-top: 1.5rem;
+}
