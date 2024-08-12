@@ -5,3 +5,8 @@ main {
     place-content: center;
     min-height: 100vh;
 }
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+}
