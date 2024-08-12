@@ -12,3 +12,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+.hero-score__container {
+    text-align: center;
+}
