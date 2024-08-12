@@ -1,5 +1,6 @@
 body {
     font-family: "Hanken Grotesk";
+    font-size: 16px;
 }
 
 main {
@@ -15,4 +16,19 @@ main {
 
 .hero-score__container {
     text-align: center;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.125em;
+    font-weight: bold;
 }
