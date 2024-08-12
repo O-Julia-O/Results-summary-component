@@ -28,8 +28,13 @@ main {
 }
 
 .hero-score__container {
+    
     text-align: center;
-    background: linear-gradient(#7857ff,  #2e2be9);;
+    background: linear-gradient(#7857ff,  #2e2be9);
+    gap: 1.5rem;
+
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
 }
 
 h1 {
