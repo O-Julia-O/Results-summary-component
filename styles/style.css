@@ -42,6 +42,10 @@ main {
     border-bottom-left-radius: 2rem;
 }
 
+/* ======================================================================= */
+/* heading block ends*/
+/* ======================================================================= */
+
 h1 {
     font-size: 3.5em;
     font-weight: 900;
@@ -59,6 +63,10 @@ h3 {
     font-size: 1.125em;
     font-weight: bold;
 }
+
+/* ======================================================================= */
+/* circle block starts*/
+/* ======================================================================= */
 
 .hero-circle {
     background: linear-gradient(var(--Violet-blue-circle), var(--Persian-blue-circle));
@@ -78,6 +86,10 @@ h3 {
     margin-left: 3.625rem;
     margin-right: 3.625rem;
 }
+
+/* ======================================================================= */
+/* hero-details block starts*/
+/* ======================================================================= */
 
 .hero-details__container {
     margin-left: 1.875rem;
