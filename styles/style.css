@@ -14,7 +14,7 @@ body {
 
 main {
     display: grid;
-    place-content: center;
+    justify-content: center;
     min-height: 100vh;
 }
 
@@ -29,7 +29,6 @@ main {
 }
 
 .hero-score__container {
-    
     text-align: center;
     background: linear-gradient(#7857ff 0%, #6943FF 0%,  #2e2be9 100%);
     gap: 1.5rem;
@@ -38,6 +37,9 @@ main {
     padding-bottom: 2.5rem;
 
     color: #CAC9FF;
+
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }
 
 h1 {
@@ -58,7 +60,21 @@ h3 {
     font-weight: bold;
 }
 
+.hero-circle {
+    background: linear-gradient(var(--Violet-blue-circle), var(--Persian-blue-circle));
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.circle-p {
+    font-weight: bold;
+}
+
 .hero-score__text {
+    
     margin-left: 3.625rem;
     margin-right: 3.625rem;
 }
