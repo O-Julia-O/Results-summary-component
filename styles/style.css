@@ -17,9 +17,14 @@ main {
     min-height: 100vh;
 }
 
-.hero__container {
+.l-flex {
     display: flex;
     flex-direction: column;
+}
+
+.hero__container {
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .hero-score__container {
